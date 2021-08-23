@@ -18,7 +18,6 @@ with open('dataset.txt', 'r') as dataset:
 # Parsing input
 with open('input.txt', 'r') as text:
     input_words = re.split(r'[ \n]', text.read())
-    print(input_words[301])
 
     i = 0
     while i < len(input_words):
